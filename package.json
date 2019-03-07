@@ -1,0 +1,47 @@
+{
+    "engines": {
+        "node": "8.9.1",
+        "npm": "5.5.1"
+    },
+    "name": "meathut",
+    "version": "0.0.0",
+    "private": true,
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "dependencies": {
+        "asyncawait": "^1.0.6",
+        "axios": "^0.18.0",
+        "bcrypt-nodejs": "0.0.3",
+        "body-parser": "~1.17.1",
+        "braintree": "^2.11.0",
+        "cookie-parser": "~1.4.3",
+        "cors": "^2.8.4",
+        "debug": "~2.6.3",
+        "ejs": "^2.6.1",
+        "email-templates": "^5.0.0",
+        "express": "^4.15.5",
+        "express-joi-validator": "^2.0.0",
+        "express-session": "^1.15.6",
+        "fcm-push": "^1.1.3",
+        "google-distance-matrix": "^1.0.0",
+        "joi": "^13.0.2",
+        "jsonwebtoken": "^8.1.0",
+        "moment": "^2.20.1",
+        "mongo-xlsx": "^1.0.12",
+        "mongoose": "^4.13.1",
+        "morgan": "~1.8.1",
+        "mosca": "^2.7.0",
+        "mpromise": "^0.5.5",
+        "multer": "^1.3.0",
+        "node-geocoder": "^3.21.1",
+        "nodemailer": "^4.6.8",
+        "pug": "^2.0.0-rc.4",
+        "request": "^2.87.0",
+        "save": "^2.3.1",
+        "serve-favicon": "~2.4.2",
+        "socket.io": "^2.1.1",
+        "sse-nodejs": "^0.1.0",
+        "ya-csv": "^0.10.1"
+    }
+}

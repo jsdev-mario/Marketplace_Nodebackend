@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head></head>
+<style>
+    #email {
+        width: 800px;
+        border-radius: 10px;
+        border: 1px solid #f8f8f8;
+        overflow: hidden;
+    }
+
+    header {
+        height: 100px;
+        background-color: #313945;
+        line-height: 100px;
+        font-size: 30px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+    }
+
+    footer {
+        border-top: 1px solid #f3f3f3;
+        height: 70px;
+        line-height: 70px;
+        color: #727272;
+        text-align: right;
+        padding: 0 20px;
+    }
+
+    .center {
+        text-align: center;
+    }
+
+    section{
+        padding: 50px;
+    }
+   
+</style>
+
+<body>
+    <div id="email">
+        <header>
+            Meathut
+        </header>
+        <section style="text-align: center;">
+            <h1>Welcome</h1>
+            <h2>Hi <%=name%></h2>
+            <h3 style="margin-bottom: 40px;">Thank you for signing up for Meathut!</h3>
+            <a style="padding: 15px 30px; background: #F6931D; border-radius: 25px; color: white; text-decoration: none; font-size: 20px;" 
+            href="<%=link%>">Go to meathut</a>
+        </section>
+        <footer>
+            © 2018 meat-hut.com
+        </footer>
+    </div>
+</body>
+
+</html>
